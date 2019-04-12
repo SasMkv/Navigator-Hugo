@@ -1,5 +1,5 @@
 [build]
-  command = "yarn build"
+  command = "hugo --gc --minify"
   publish = "dist"
 [build.environment]
   YARN_VERSION = "1.9.4"
